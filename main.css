@@ -55,7 +55,7 @@ button {
 }
 
 @keyframes rotation{
-  0{
+  0% {
     transform:rotate(0deg);
   }
   100%{
@@ -171,7 +171,7 @@ input {
 button:hover{
   background-color: #f6980c;
   transition:backround-color 0.3s ease-in;
-  box-shadow: 0 16px 36px rgba(246 152 12 / 20%;
+  box-shadow: 0 16px 36px rgba(246 152 12 / 20%);
 }
 
 .footer{
@@ -182,7 +182,8 @@ button:hover{
 
  .footer__container{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: flex-start;
  }
 
  .footer__copyright{
@@ -209,5 +210,11 @@ button:hover{
  .footer__links a{
   margin-bottom: 15px;
  }
+
+ .footer__copyright {
+  text-align: center;
+  opacity: 0.5;
+  margin-top: 40px;
+}
 
  
