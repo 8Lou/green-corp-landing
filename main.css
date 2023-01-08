@@ -212,7 +212,7 @@ font-size: 48px;
   box-shadow: 0 6px 0 rgb(29 38 58 / 20%);
 }
 
-.fa-star {
+.stars {
   color: #ff7039;
 }
 
@@ -230,7 +230,7 @@ font-size: 48px;
 
 .promo__image{
   width: 50%;
-  background-image: url('../img/promo.jpg');
+  background-image: url('./img/promo.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -275,7 +275,7 @@ padding: 160px  60px 160px 60px;
   color: #fff;  
 }
 
-.promo__right__card> fa-chevron-right {
+.promo__right__card > fa-chevron-right {
   font-size: 15px;
   margin-left: 5px;
 }
@@ -485,11 +485,6 @@ button:hover{
 
 .features__savings-box {
   margin-bottom: 30px;
-}
-
-.background-image {
-  justify-content: space-between;
-  height: 500px;
 }
 
 .promo {
