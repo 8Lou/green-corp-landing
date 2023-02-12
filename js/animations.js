@@ -16,7 +16,10 @@ function increaseNumberAnimationStep (i, element, endNumber) {
     }
   }
 
-function increaseNumberAnimationStep  () {
-if (i )
+function initIncreaseNumberAnimation() {
+  const element = document.querySelector('.features__clients-count');
+  
+  increaseNumberAnimationStep(0, element, 5000);
 }
+
 initIncreaseNumberAnimation();
