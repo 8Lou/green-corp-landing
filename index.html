@@ -7,8 +7,11 @@
 	<link rel="stylesheet" href="main.css" />
 	<link rel="stylesheet" href="fa/css/all.min.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700;800&display=swap"/>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-	<title>Солнечные батареи GreenCorp</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+    <title>Солнечные батареи GreenCorp</title>
 </head>
 <body>
   <header>
@@ -18,6 +21,7 @@
       <button>Заказать</button>
     </div>
   </header>
+  
   <section class="about">
     <canvas class="orb-canvas" id="orb-canvas" width="" height=""></canvas>
      <div class="about__info animate__animated animate__fadeInLeft animate__slow">
@@ -101,29 +105,35 @@
 <section class="form" id="form">
   <div class="form__containter">
     <h1>Оставьте свои контакты</h1>
-          <p><br>Поможем подобрать модель.
-            <br>Выбрать удобный вариант доставки и установки.
-            <br>Гарантия возврата денег.
+          <p>Поможем подобрать модель.
+            <br> Выбрать удобный вариант доставки и установки.
+            <br> Гарантия возврата денег.
           </p>
+
     <form>
       <div class="form__group">
         <label for="name">Ваше имя</label>
         <input type="text" placeholder="Введите имя" id="name">
-        <br><label for="name">Электронный адрес</label>
-        <input type="text" placeholder="***@yandex.ru" id="email">
-        <br><label for="name">Номер телефона</label>
-        <input type="text" placeholder="7 (999) 999-99-99" id="phone">
+        </div>              
+      <div class="form__group">
+        <label for="email">Электронный адрес</label>
+        <input type="email" placeholder="***@yandex.ru" id="email">
       </div>
       <div class="form__group">
-        <label for="budget">Примерный бюджет</label>
+         <label for="phone>Номер телефона</label>
+        <input type="tel" placeholder="7 (999) 999-99-99" id="phone">
+      </div>
+      <div class="form__group">      
+      <label for="budget">Примерный бюджет</label>
         <select id="budget">
-          Выберите вариант
-      <option value="10–30">10 000₽ – 30 000₽ </option>
-      <option value="10–30">30 000₽ – 60 000₽ </option>
-      <option value="10–30">60 000₽ – 100 000₽ </option>
-      <option value="other">Другое</option>
+          <option>Выберите вариант</option>
+      <option value="10 – 30">10 000₽ – 30 000₽ </option>
+      <option value="30 – 60">30 000₽ – 60 000₽ </option>
+      <option value="60 – 100">60 000₽ – 100 000₽ </option>
+      <option value="100+">Другое</option>
         </select>
       </div>
+
 <div class="form__group form__other-input">
   <input type="text" placeholder="Введите ваш вариант">
 </div>
@@ -136,6 +146,8 @@
 
 <footer>
   <div class="footer__container">
+    </div>
+
     <div class="footer__group">
       <h3>Позвонить нам:</h3>
       <div class="footer__links">
@@ -151,6 +163,7 @@
     </div>
      <div class="footer__group">
       <h3>Компания</h3>
+
       <div class="footer__links">
         <a href="#">Контакты</a>
         <a href="#">Вакансии</a>
@@ -158,8 +171,12 @@
       </div>
     </div>
   </div>
-  <div class="footer__copyright">GreenCorp © 2023</div>
+
+  <div class="footer__copyright">
+    GreenCorp © 2023
+  </div>
 </footer>
+
 <script src="fa/js/all.min.js"></script>
 <script src="E:/green_corp/js/canvas.js"></script>
 <script src="E:/green_corp/js/animations.js"></script>
